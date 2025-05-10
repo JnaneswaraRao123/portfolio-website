@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevara Jnaneswara Rao - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">PORTFOLIO</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="profile" class="section">
+            <div class="profile-table">
+                <!-- Profile Photo (top-left) -->
+                <div class="profile-photo">
+                    <img src="mee.jpg" alt="Bevara Jnaneswara Rao">
+                </div>
+        
+                <!-- Profile Details (right of photo) -->
+                <div class="profile-details">
+                    <h2>Bevara Jnaneswara Rao</h2>
+                    <p>Hello! I'm a Computer Science graduate with a passion for web development and backend engineering. I enjoy solving real-world problems using technologies like Django, Python, and JavaScript.</p>
+
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="education-container">
+                <div class="education-card">
+                    <h3>B. Tech (CSE)</h3>
+                    <p><strong>Institution:</strong> Avanthi's St. Theressa Institute of Engineering & Technology</p>
+                    <p><strong>University:</strong> JNTU-GV</p>
+                    <p><strong>Year of Passing:</strong> 2024</p>
+                    <p><strong>CGPA:</strong> 7.2</p>
+                </div>
+                <div class="education-card">
+                    <h3>Intermediate</h3>
+                    <p><strong>Institution:</strong> Sri Chakra Jr College</p>
+                    <p><strong>Board:</strong> Board of Intermediate Education, AP</p>
+                    <p><strong>Year of Passing:</strong> 2020</p>
+                    <p><strong>CGPA:</strong> 8.75</p>
+                </div>
+                <div class="education-card">
+                    <h3>SSC</h3>
+                    <p><strong>Institution:</strong> Z P High School, Nadupuru</p>
+                    <p><strong>Board:</strong> Board of Secondary Education, AP</p>
+                    <p><strong>Year of Passing:</strong> 2018</p>
+                    <p><strong>CGPA:</strong> 8.3</p>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <h3>Online Banking System</h3>
+                    <p>A web-based banking system that allows customers to perform balance inquiries, fund transfers, and manage accounts online. The manager interface allows for deposits and withdrawals.</p>
+                    <button class="btn" onclick="toggleProjectDetails('project1-details')">View Details</button>
+                    <div id="project1-details" class="project-details">
+                        <p><strong>Description:</strong> The project is a comprehensive online banking platform that supports essential banking operations such as balance inquiry, fund transfer, deposit, and withdrawal. It provides two user interfaces: one for the customer and one for the manager.</p>
+                        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript (Frontend), Python, MySQL, Django (Backend)</p>
+                        <p><strong>Features:</strong> 
+                            <ul>
+                                <li>Account management (balance check, fund transfer)</li>
+                                <li>Customer registration and login</li>
+                                <li>Manager interface for deposits and withdrawals</li>
+                                <li>Security features (password hashing, secure login)</li>
+                            </ul>
+                        </p>
+                        <p><strong>Challenges:</strong> 
+                            <ul>
+                                <li>Integrating secure authentication mechanisms</li>
+                                <li>Handling database transactions efficiently</li>
+                                <li>Ensuring responsiveness for various screen sizes</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website showcasing my skills, education, projects, and achievements. This site is built with HTML, CSS, and JavaScript.</p>
+                    <button class="btn" onclick="toggleProjectDetails('project2-details')">View Details</button>
+                    <div id="project2-details" class="project-details">
+                        <p><strong>Description:</strong> A responsive and interactive portfolio website that displays my professional skills, education history, and projects. The website provides an overview of my work and contact details.</p>
+                        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                        <p><strong>Features:</strong> 
+                            <ul>
+                                <li>Interactive navigation menu</li>
+                                <li>Project showcase with dynamic content</li>
+                                <li>Responsive design for all devices</li>
+                                <li>Contact form integration</li>
+                            </ul>
+                        </p>
+                        <p><strong>Challenges:</strong> 
+                            <ul>
+                                <li>Ensuring a smooth user experience on mobile devices</li>
+                                <li>Optimizing performance for faster loading</li>
+                                <li>Designing an aesthetic layout</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skillset</h2>
+            <div class="skills-container">
+                <!-- Skill Category 1 -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title" onclick="toggleSkillDetails('skill1-details')">Programming Languages</h3>
+                    <div id="skill1-details" class="skill-details">
+                        <ul>
+                            <li><strong>C:</strong> Experienced in C programming, including data structures and algorithms.</li>
+                            <li><strong>Python:</strong> Proficient in Python, including object-oriented programming (OOP), Django, and Flask.</li>
+                            <li><strong>Java:</strong> Basic knowledge of Java and object-oriented concepts.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Skill Category 2 -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title" onclick="toggleSkillDetails('skill2-details')">Web Technologies</h3>
+                    <div id="skill2-details" class="skill-details">
+                        <ul>
+                            <li><strong>HTML:</strong> Experienced in HTML5, creating responsive and accessible web pages.</li>
+                            <li><strong>CSS:</strong> Proficient in CSS3, creating modern and responsive layouts using Flexbox and Grid.</li>
+                            <li><strong>JavaScript:</strong> Proficient in JavaScript, including ES6 features, DOM manipulation, and basic front-end frameworks.</li>
+                            <li><strong>React:</strong> Familiar with React.js for building interactive UIs and web applications.</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Skill Category 3 -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title" onclick="toggleSkillDetails('skill3-details')">Database Management</h3>
+                    <div id="skill3-details" class="skill-details">
+                        <ul>
+                            <li><strong>MySQL:</strong> Experienced with MySQL, including database design, normalization, and writing SQL queries.</li>
+                            <li><strong>SQLite:</strong> Familiar with SQLite for lightweight database applications.</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Skill Category 4 -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title" onclick="toggleSkillDetails('skill4-details')">Tools & Frameworks</h3>
+                    <div id="skill4-details" class="skill-details">
+                        <ul>
+                            <li><strong>Git:</strong> Experienced with Git for version control and collaboration using GitHub.</li>
+                            <li><strong>VS Code:</strong> Proficient in using Visual Studio Code as my primary code editor.</li>
+                            <li><strong>Docker:</strong> Familiar with Docker for containerization and deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!-- Certifications Section -->
+<section id="certifications" class="section">
+    <h2>Certifications</h2>
+    <div class="certifications-container">
+        <div class="certification">
+            <h3 class="certification-title">Artificial Intelligence & Machine Learning</h3>
+            <div class="certification-details">
+                <p><strong>Institution:</strong> Smart Bridge Education Services Pvt. Ltd.</p>
+            </div>
+        </div>
+        <div class="certification">
+            <h3 class="certification-title">AWS Cloud and Python Full Stack</h3>
+            <div class="certification-details">
+                <p><strong>Certified by:</strong> Vtalent</p>
+            </div>
+        </div>
+        <div class="certification">
+            <h3 class="certification-title">Front-End Development</h3>
+            <div class="certification-details">
+                <p><strong>Institution:</strong> SmartInternz</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        
+   <!-- Contact Section -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <div class="contact-container">
+        <!-- Gmail -->
+        <div class="contact-card">
+            <a href="mailto:jnanesh.janu.b@gmail.com" target="_blank" class="contact-link">
+                <img src="https://img.icons8.com/fluency/48/gmail-new.png" alt="Gmail" class="contact-icon" />
+                <p>Email</p>
+            </a>
+        </div>
+        <!-- LinkedIn -->
+        <div class="contact-card">
+            <a href="https://www.linkedin.com/in/jnaneswararaobevara/" target="_blank" class="contact-link">
+                <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" class="contact-icon" />
+                <p>LinkedIn</p>
+            </a>
+        </div>
+        <!-- HackerRank -->
+        <div class="contact-card">
+            <a href="https://www.hackerrank.com/profile/jnanesh_janu_b" target="_blank" class="contact-link">
+                <img src="https://img.icons8.com/windows/48/00C853/hackerrank.png" alt="HackerRank" class="contact-icon" />
+                <p>HackerRank</p>
+            </a>
+        </div>
+        <!-- GitHub -->
+        <div class="contact-card">
+            <a href="https://github.com/JnaneswaraRao123" target="_blank" class="contact-link">
+                <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png" alt="GitHub" class="contact-icon" />
+                <p>GitHub</p>
+            </a>
+        </div>
+        <!-- YouTube -->
+        <div class="contact-card">
+            <a href="https://www.youtube.com/@jnaneswararaobevara8081" target="_blank" class="contact-link">
+                <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" class="contact-icon" />
+                <p>YouTube</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+          
+    </main>
+
+    <footer>
+        <p>© 2025 Bevara Jnaneswara Rao | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
